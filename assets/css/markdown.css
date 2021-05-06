@@ -1,5 +1,5 @@
 .content {
-  @apply text-primary-text leading-normal break-words;
+  @apply text-base text-primary-text leading-relaxed break-words;
 }
 
 .content > * {
@@ -31,15 +31,15 @@
 }
 
 .content h1 {
-  @apply leading-tight border-b text-4xl font-semibold mb-4 mt-6 pb-2;
+  @apply leading-tight border-b text-4xl font-sans font-extrabold mb-4 mt-6 pb-2;
 }
 
 .content h2 {
-  @apply leading-tight border-b text-2xl font-semibold mb-4 mt-6 pb-2;
+  @apply leading-tight border-b text-2xl font-sans font-semibold mb-4 mt-6 pb-2;
 }
 
 .content h3 {
-  @apply leading-snug text-lg font-semibold mb-4 mt-6;
+  @apply leading-snug text-lg font-sans font-semibold mb-4 mt-6;
 }
 
 .content h4 {
@@ -55,7 +55,7 @@
 }
 
 .content blockquote {
-  @apply text-base border-l-4 border-tertiary-text pl-4 pr-4 text-secondary-text;
+  @apply text-base border-l-4 border-eureka pl-4 pr-4 text-secondary-text;
 }
 
 .content code {

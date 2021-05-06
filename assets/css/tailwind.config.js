@@ -12,9 +12,22 @@ module.exports = {
     ],
   },
   theme: {
+    fontSize: {
+      'xs': '.75rem',
+      'sm': '.875rem',
+      'base': '1.125rem',
+      'lg': '1.25rem',
+      'xl': '1.5rem',
+      '2xl': '1.875rem',
+      '3xl': '2.25rem',
+      '4xl': '3rem',
+      '5xl': '4rem',
+      '6xl': '5rem',
+    },
     fontFamily: {
-      'serif': ['Lora', 'Noto Serif SC', 'serif'],
-      'mono': ['SFMono-Regular', 'Menlo'],
+      'sans': ['Montserrat', 'sans-serif'],
+      'serif': ['Lora', 'Merriweather', 'Noto Serif SC', 'serif'],
+      'mono': ['monospace', 'SFMono-Regular', 'Menlo'],
     },
     extend: {
       height: {
