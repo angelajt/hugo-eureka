@@ -3,7 +3,7 @@
 }
 
 .sticky-toc a {
-  @apply text-primary-text ease-in-out duration-200;
+  @apply text-secondary-text font-mono ease-in-out duration-200;
 }
 
 .sticky-toc a:hover {
@@ -11,11 +11,15 @@
 }
 
 .sticky-toc ul {
-  @apply text-base pl-8 list-disc;
+  @apply text-base pl-8 list-none;
 }
 
 .sticky-toc ol {
   @apply text-base pl-8 list-decimal;
+}
+
+.sticky-toc li {
+  @apply text-sm;
 }
 
 .sticky-toc li + li {
@@ -25,6 +29,11 @@
 .sticky-toc li > p + p {
   @apply mt-6;
 }
+
+.summary-card:hover {
+  @apply text-eureka;
+}
+
 
 .object-contain {
     object-fit: contain !important;

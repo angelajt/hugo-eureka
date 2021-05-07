@@ -12,22 +12,32 @@ module.exports = {
     ],
   },
   theme: {
+      /* margin: {
+       '0': '0px',
+       '1': '8px',
+       '2': '12px',
+       '3': '16px',
+       '4': '20px',
+       '5': '32px',
+       '6': '52px',
+       '7': '85px',
+      }, */
     fontSize: {
-      'xs': '.75rem',
-      'sm': '.875rem',
-      'base': '1.125rem',
-      'lg': '1.25rem',
-      'xl': '1.5rem',
-      '2xl': '1.875rem',
-      '3xl': '2.25rem',
-      '4xl': '3rem',
-      '5xl': '4rem',
-      '6xl': '5rem',
+      'xs': '.8rem',
+      'sm': '1rem',
+      'base': '1.1rem',
+      'lg': '1.563rem',
+      'xl': '1.953rem',
+      '2xl': '2.441rem',
+      '3xl': '3.052rem',
+      '4xl': '3.815rem',
+      '5xl': '4.768rem',
+      '6xl': '5.96rem',
     },
     fontFamily: {
       'sans': ['Montserrat', 'sans-serif'],
       'serif': ['Lora', 'Merriweather', 'Noto Serif SC', 'serif'],
-      'mono': ['monospace', 'SFMono-Regular', 'Menlo'],
+      'mono': ['Trispace', 'monospace', 'SFMono-Regular', 'Menlo'],
     },
     extend: {
       height: {

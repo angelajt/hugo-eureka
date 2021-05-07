@@ -35,11 +35,11 @@
 }
 
 .content h2 {
-  @apply leading-tight border-b text-2xl font-sans font-semibold mb-4 mt-6 pb-2;
+  @apply leading-tight border-b text-2xl font-sans font-semibold mb-5 mt-16 pb-2;
 }
 
 .content h3 {
-  @apply leading-snug text-lg font-sans font-semibold mb-4 mt-6;
+  @apply leading-snug text-lg font-sans font-semibold mb-4 mt-10;
 }
 
 .content h4 {
@@ -107,4 +107,6 @@
   margin-top: -4rem;
 }
 
-
+.content hr {
+ @apply mt-10;
+}
