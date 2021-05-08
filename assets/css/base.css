@@ -1,6 +1,6 @@
 :root {
     @apply font-serif bg-primary-bg text-primary-text;
-    --color-eureka: #f5ac9a;
+    --color-eureka: #b2bc62;
     /* --color-primary-bg: rgba(242,242,247,1.00); */
     --color-primary-bg: rgba(255,255,255,1.00);
     --color-secondary-bg: rgba(255,255,255,1.00);
