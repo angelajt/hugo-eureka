@@ -34,6 +34,10 @@
   @apply text-eureka;
 }
 
+.summary {
+  @apply mt-0;
+}
+
 
 .object-contain {
     object-fit: contain !important;

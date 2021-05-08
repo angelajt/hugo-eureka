@@ -1,5 +1,5 @@
 .content {
-  @apply text-base text-primary-text leading-relaxed break-words;
+  @apply mt-10 text-base text-primary-text leading-relaxed break-words;
 }
 
 .content > * {
