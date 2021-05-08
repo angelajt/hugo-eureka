@@ -9,10 +9,11 @@
         
         {{ $featured := partial "utils/get-featured" . }}
         {{ with $featured }}
-        <div class="my-4">
+        <div class="my-10">
             {{ . }}
         </div>
         {{ end }}
+
 
         <div class="content">
             {{ .Content}}
