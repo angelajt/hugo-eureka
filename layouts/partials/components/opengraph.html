@@ -10,9 +10,9 @@
 
 
 {{ if .IsPage }}
-<meta property="og:image" content="{{ partial "utils/get-image" (dict "context" . "url" .Params.featuredImage "keyword" "*featured*") }}" />
+<meta property="og:image" content="{{ partial "utils/get-image" (dict "context" . "url" .Params.featuredImage "keyword" "*featured*") | absURL }}" />
 {{ else }}
-<meta property="og:image" content="{{ partial "utils/get-image" (dict "context" . "url" .Site.Params.icon) }}" />
+<meta property="og:image" content="{{ partial "utils/get-image" (dict "context" . "url" .Site.Params.icon) | absURL }}" />
 {{ end }}
 
 <meta property="og:url" content="{{ .Permalink }}" />
