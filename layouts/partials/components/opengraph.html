@@ -9,13 +9,10 @@
 <meta property="twitter:card" content="{{ if .IsPage }}summary_large_image{{ else }}summary{{ end }}" />
 
 
-{{ $icon := partial "utils/get-image" (dict "context" . "url" .Site.Params.icon) }}
 {{ if .IsPage }}
-{{ $icon := partial "utils/get-featured" . }}
-{{ end }}
-{{ with $icon }}
-<meta property="og:image" content="{{ . }}" />
-<meta property="twitter:image" content="{{ . }}" />
+<meta property="og:image" content="{{ partial "utils/get-image" (dict "context" . "url" .Params.featuredImage "keyword" "*featured*") }}" />
+{{ else }}
+<meta property="og:image" content="{{ partial "utils/get-image" (dict "context" . "url" .Site.Params.icon) }}" />
 {{ end }}
 
 <meta property="og:url" content="{{ .Permalink }}" />
