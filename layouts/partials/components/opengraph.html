@@ -1,3 +1,4 @@
+<meta property="twitter:site:id" content="998728880885190656" />
 {{ if .IsPage }}
 <meta property="og:title" content="{{ .Title }}" />
 {{ else }}
@@ -13,8 +14,8 @@
 {{ $icon := partial "utils/get-featured" . }}
 {{ end }}
 {{ with $icon }}
-<meta property="og:image" content="{{ . }}">
-<meta property="twitter:image" content="{{ . }}">
+<meta property="og:image" content="{{ . }}" />
+<meta property="twitter:image" content="{{ . }}" />
 {{ end }}
 
 <meta property="og:url" content="{{ .Permalink }}" />
